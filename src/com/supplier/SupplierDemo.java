@@ -11,6 +11,7 @@ public class SupplierDemo {
 
     public static void main(String[] args) {
         Supplier message=()->{return "No Worries !!!";};
+
         List<String> list = Arrays.asList();
         System.out.println(list.stream().findAny().orElseGet(message));
     }

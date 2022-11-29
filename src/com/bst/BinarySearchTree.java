@@ -1,4 +1,4 @@
-package com.ds;
+package com.bst;
 
 public class BinarySearchTree {
 
